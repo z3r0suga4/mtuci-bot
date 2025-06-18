@@ -6,8 +6,8 @@ from aiogram.filters import StateFilter
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message, CallbackQuery
 
-from keyboards.news_inline_kb import news_kb
-from keyboards.start_inline_kb import start_kb
+from keyboards.news_kb import news_kb
+from keyboards.start_kb import start_kb
 
 from news_parsers.irn_parser import irn_parser
 from news_parsers.rbk_parser import rbk_parser
